@@ -20,7 +20,7 @@ const blog = require("./routes/blog");
 
 // // mount
 
-// app.use("api/v1", blog);
+app.use("/api/v1", blog);
 
 const dbConnecction = require("./config/db");
 
